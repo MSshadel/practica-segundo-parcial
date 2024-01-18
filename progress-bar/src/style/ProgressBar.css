@@ -1,0 +1,52 @@
+/* styles/ProgressBar.css */
+.progress-bar-container {
+    position: relative;
+    width: 50%;
+    margin: 50px auto;
+    background: #333;
+    border-radius: 10px;
+    padding: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    text-align: center;
+  }
+  
+  .progress-bar {
+    height: 20px;
+    border-radius: 10px;
+    background: linear-gradient(90deg, #ff69b4, #ff8c9b, #ff69b4);
+    animation: lava 2s infinite;
+  }
+  
+  .progress-bottle {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 20px;
+    background: #ff69b4;
+    border-radius: 10px;
+  }
+  
+  .progress-text {
+    position: absolute;
+    top: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+    color: #fff;
+  }
+  
+  .select-container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, 50%);
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+  }
+  
+  #percentage {
+    margin-top: 10px;
+  }
+  
